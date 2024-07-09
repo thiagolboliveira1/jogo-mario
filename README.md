@@ -1,2 +1,3 @@
 # jogo-mario
- Este é um jogo de inglês.
+ Fale o nome da cor em Inglês.
+Acesse Aqui para jogar: https://thiagolboliveira1.github.io/jogo-mario/
