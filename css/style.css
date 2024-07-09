@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #b30000;
+}
+
+header#cabecalho-principal {
+    background-color: white;
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pontuação-game {
+    background-color: #61B1EA;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    padding: 5px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.img-moeda {
+    height: 17px;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+section#corpo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+section#corpo div#esquerda {
+    margin-left: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    
+}
+
+section#corpo div#direita {
+    /*Depois eu faço essa parte*/
+    color: #000000;
+}
+
+section#corpo div#esquerda div#cor-atual {
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    border: 8px solid black;
+    border-radius: 10px;
+}
+
+section#corpo div#esquerda button#btn-responder {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: white;
+    padding: 15px 45px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section#corpo div#esquerda button#btn-responder:hover {
+    background-color: #61B1EA;
+}
+
+.img-mario {
+    height: 390px;
+    
+}
+
+div#container footer#rodape {
+    background-color: rgb(26, 26, 32);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
